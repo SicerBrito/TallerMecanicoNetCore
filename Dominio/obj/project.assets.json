@@ -81,7 +81,7 @@
           }
         }
       },
-      "itext7/8.0.0": {
+      "itext/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
@@ -98,7 +98,7 @@
           "System.Threading.Thread": "4.3.0",
           "System.Threading.ThreadPool": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0",
-          "itext7.commons": "8.0.0"
+          "itext.commons": "8.0.1"
         },
         "compile": {
           "lib/netstandard2.0/itext.barcodes.dll": {
@@ -165,7 +165,7 @@
           }
         }
       },
-      "itext7.commons/8.0.0": {
+      "itext.commons/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -182,10 +182,10 @@
           }
         }
       },
-      "itext7.pdfhtml/5.0.0": {
+      "itext.pdfhtml/5.0.1": {
         "type": "package",
         "dependencies": {
-          "itext7": "8.0.0"
+          "itext": "8.0.1"
         },
         "compile": {
           "lib/netstandard2.0/itext.html2pdf.dll": {
@@ -196,6 +196,12 @@
           "lib/netstandard2.0/itext.html2pdf.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "itext7.pdfhtml/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "itext.pdfhtml": "5.0.1"
         }
       },
       "MediatR/11.0.0": {
@@ -268,11 +274,11 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/7.0.9": {
+      "Microsoft.EntityFrameworkCore/7.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.9",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.9",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.10",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -291,7 +297,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.9": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.10": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -304,7 +310,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.9": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1686,18 +1692,18 @@
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
-    "itext7/8.0.0": {
-      "sha512": "HWdCvclpwMXKA2slBzgxKOdCHOUch9+wq0mj5ec3AL46ZDU4j2XbojVB4Zy9j1yecDJdLJeMeD39f7ZPmZ9j5Q==",
+    "itext/8.0.1": {
+      "sha512": "qr0dr6va+/ZAkA9FR95ofpoPO8/yvjs0J+8Zo03KJWuqX3bjO/hTUVNvqKVtDFZPlGYwDrtOAb3Irv1VgSmO3Q==",
       "type": "package",
-      "path": "itext7/8.0.0",
+      "path": "itext/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ITSC-avatar.png",
         "LICENSE.md",
         "gnu-agpl-v3.0.md",
-        "itext7.8.0.0.nupkg.sha512",
-        "itext7.nuspec",
+        "itext.8.0.1.nupkg.sha512",
+        "itext.nuspec",
         "lib/net461/itext.barcodes.dll",
         "lib/net461/itext.barcodes.xml",
         "lib/net461/itext.bouncy-castle-connector.dll",
@@ -1740,26 +1746,26 @@
         "lib/netstandard2.0/itext.svg.xml"
       ]
     },
-    "itext7.commons/8.0.0": {
-      "sha512": "YPraDCzJKy+xX79WkHd0FevrTtbRmHyuhF0oS9c7s12Qe+3xlCnWqaPMGQ4batr3aarDU8E4Tquj4idcuJqrWg==",
+    "itext.commons/8.0.1": {
+      "sha512": "v1lcTrZzD906fJ8owf81X3DIuMtf9uL8Jvf9TdI5xi7E0AuBR4YGxVKdAxXSzgczbquBabRhRtz2jlxbX5bzwQ==",
       "type": "package",
-      "path": "itext7.commons/8.0.0",
+      "path": "itext.commons/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ITSC-avatar.png",
-        "itext7.commons.8.0.0.nupkg.sha512",
-        "itext7.commons.nuspec",
+        "itext.commons.8.0.1.nupkg.sha512",
+        "itext.commons.nuspec",
         "lib/net461/itext.commons.dll",
         "lib/net461/itext.commons.xml",
         "lib/netstandard2.0/itext.commons.dll",
         "lib/netstandard2.0/itext.commons.xml"
       ]
     },
-    "itext7.pdfhtml/5.0.0": {
-      "sha512": "u6Y9NTob9MBSiSdKwRr+3REZOaMiOD42j4R7B8xd7XSytrVWXn9fDufJzjEz9GfAotHq3GAl5/46XOY0nAGWVg==",
+    "itext.pdfhtml/5.0.1": {
+      "sha512": "vyDtl35h4OFnWFLAal0qtCdbGUCv4DcjnLT32icodgmUpEKLCytgWVRF+XFjyHWidtqVdGErbouQ2mNa32AKDA==",
       "type": "package",
-      "path": "itext7.pdfhtml/5.0.0",
+      "path": "itext.pdfhtml/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1767,12 +1773,27 @@
         "LICENSE.md",
         "NOTICE.txt",
         "gnu-agpl-v3.0.md",
-        "itext7.pdfhtml.5.0.0.nupkg.sha512",
-        "itext7.pdfhtml.nuspec",
+        "itext.pdfhtml.5.0.1.nupkg.sha512",
+        "itext.pdfhtml.nuspec",
         "lib/net461/itext.html2pdf.dll",
         "lib/net461/itext.html2pdf.xml",
         "lib/netstandard2.0/itext.html2pdf.dll",
         "lib/netstandard2.0/itext.html2pdf.xml"
+      ]
+    },
+    "itext7.pdfhtml/5.0.1": {
+      "sha512": "ww1GLBG5bqQQ6KJKBJbVPjIHdNFJsLawQ6C22K5vlYg6eeMFmkCa/jBHgdK8yIobBQgMXxhD9t2RlKDOOO4P+Q==",
+      "type": "package",
+      "path": "itext7.pdfhtml/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ITSC-avatar.png",
+        "LICENSE.md",
+        "NOTICE.txt",
+        "gnu-agpl-v3.0.md",
+        "itext7.pdfhtml.5.0.1.nupkg.sha512",
+        "itext7.pdfhtml.nuspec"
       ]
     },
     "MediatR/11.0.0": {
@@ -1900,10 +1921,10 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/7.0.9": {
-      "sha512": "9YuCdQWuRAmYYHqwW1h5ukKMC1fmNvcVHdp3gb8zdHxwSQz7hkGpYOBEjm6dRXRmGRkpUyHL8rwUz4kd53Ev0A==",
+    "Microsoft.EntityFrameworkCore/7.0.10": {
+      "sha512": "24NbXJqJ/x8u88/agqeb1pLdAF9+9StDLA36+P/3g5xsJPOaB2GxXn7epR8dWpZTgHsNZ7cvBMxBgfFmF+xZlg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.9",
+      "path": "microsoft.entityframeworkcore/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1911,35 +1932,35 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.9": {
-      "sha512": "cfY6Fn7cnP/5pXndL8QYaey/B2nGn1fwze5aSaMJymmbqwqYzFiszHuWbsdVBCDYJc8ok7eB1m/nCc3/rltulQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.10": {
+      "sha512": "Z/lDWmGLiT9uNQrp6UXTKZxofSmAKQCiKOz98FDscTbfAGgBXE3DTTqRsPMc8HFIVVSNANSiFRz3JyLg07HN9Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.9",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.9": {
-      "sha512": "VvqFD3DdML6LhPCAR/lG2xNX66juylC8v57yUAAYnUSdEUOMRi3lNoT4OrNdG0rere3UOQPhvVl5FH2QdyoF8Q==",
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.10": {
+      "sha512": "+8NVNpyJTzW6nNh/7RGfldf+mbeboVcn+X1tD8kMBCEJswuy3RqM/qecEEfOfTcWLliZExPMaHwOwtHO6RMpdA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.9",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -5242,24 +5263,24 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "FluentValidation.AspNetCore >= 11.3.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
-      "Microsoft.EntityFrameworkCore >= 7.0.9",
-      "itext7.pdfhtml >= 5.0.0"
+      "Microsoft.EntityFrameworkCore >= 7.0.10",
+      "itext7.pdfhtml >= 5.0.1"
     ]
   },
   "packageFolders": {
-    "/home/apolm01-017/.nuget/packages/": {}
+    "/home/skylab-132/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
+      "projectUniqueName": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
-      "packagesPath": "/home/apolm01-017/.nuget/packages/",
-      "outputPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/obj/",
+      "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
+      "packagesPath": "/home/skylab-132/.nuget/packages/",
+      "outputPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/apolm01-017/.nuget/NuGet/NuGet.Config"
+        "/home/skylab-132/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5297,11 +5318,11 @@
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[7.0.9, )"
+            "version": "[7.0.10, )"
           },
           "itext7.pdfhtml": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.1, )"
           }
         },
         "imports": [

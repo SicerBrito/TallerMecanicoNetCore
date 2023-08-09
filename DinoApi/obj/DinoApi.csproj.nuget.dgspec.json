@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/apolm01-017/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj": {}
+    "/home/skylab-132/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj": {}
   },
   "projects": {
-    "/home/apolm01-017/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj": {
+    "/home/skylab-132/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj",
+        "projectUniqueName": "/home/skylab-132/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj",
-        "packagesPath": "/home/apolm01-017/.nuget/packages/",
-        "outputPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Aplicacion/obj/",
+        "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj",
+        "packagesPath": "/home/skylab-132/.nuget/packages/",
+        "outputPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Aplicacion/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-017/.nuget/NuGet/NuGet.Config"
+          "/home/skylab-132/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj": {
-                "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj"
+              "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj": {
+                "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj"
               },
-              "/home/apolm01-017/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj": {
-                "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj"
+              "/home/skylab-132/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj": {
+                "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj"
               }
             }
           }
@@ -64,17 +64,17 @@
         }
       }
     },
-    "/home/apolm01-017/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj": {
+    "/home/skylab-132/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-017/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj",
+        "projectUniqueName": "/home/skylab-132/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj",
         "projectName": "DinoApi",
-        "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj",
-        "packagesPath": "/home/apolm01-017/.nuget/packages/",
-        "outputPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/DinoApi/obj/",
+        "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/DinoApi/DinoApi.csproj",
+        "packagesPath": "/home/skylab-132/.nuget/packages/",
+        "outputPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/DinoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-017/.nuget/NuGet/NuGet.Config"
+          "/home/skylab-132/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -86,8 +86,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolm01-017/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj": {
-                "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj"
+              "/home/skylab-132/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj": {
+                "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Aplicacion/Aplicacion.csproj"
               }
             }
           }
@@ -104,7 +104,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -114,7 +114,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -148,17 +148,17 @@
         }
       }
     },
-    "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj": {
+    "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
+        "projectUniqueName": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
-        "packagesPath": "/home/apolm01-017/.nuget/packages/",
-        "outputPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/obj/",
+        "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj",
+        "packagesPath": "/home/skylab-132/.nuget/packages/",
+        "outputPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-017/.nuget/NuGet/NuGet.Config"
+          "/home/skylab-132/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -196,11 +196,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "itext7.pdfhtml": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -223,17 +223,17 @@
         }
       }
     },
-    "/home/apolm01-017/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj": {
+    "/home/skylab-132/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj",
+        "projectUniqueName": "/home/skylab-132/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj",
-        "packagesPath": "/home/apolm01-017/.nuget/packages/",
-        "outputPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Persistencia/obj/",
+        "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Persistencia/Persistencia.csproj",
+        "packagesPath": "/home/skylab-132/.nuget/packages/",
+        "outputPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-017/.nuget/NuGet/NuGet.Config"
+          "/home/skylab-132/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -245,8 +245,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj": {
-                "projectPath": "/home/apolm01-017/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj"
+              "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj": {
+                "projectPath": "/home/skylab-132/Videos/TallerMecanicoNetCore/Dominio/Dominio.csproj"
               }
             }
           }
@@ -267,13 +267,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
