@@ -21,7 +21,6 @@ namespace Dominio.Entities;
         public DateTime FechaDeContratacion { get; set; }
         public double Salario { get; set; }
         public string ? InformacionAdicional { get; set; }
-        public ICollection<Historial> ? Historiales { get; set; }
         public ICollection<FacturaRevision> ? FacturasDeRevision { get; set; }
 
         
