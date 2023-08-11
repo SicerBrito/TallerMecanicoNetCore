@@ -23,10 +23,16 @@ namespace Dominio.Entities;
         public ICollection<Servicio> ? Servicios { get; set; }
         public ICollection<Especialidad> ? Especialidades { get; set; }
         public ICollection<Horario> ? Horarios { get; set; }
-        public ICollection<Horario> ? Horarios { get; set; }
-        public ICollection<Horario> ? Horarios { get; set; }
-        public ICollection<Horario> ? Horarios { get; set; }
-        public ICollection<Horario> ? Horarios { get; set; }
-        public ICollection<Horario> ? Horarios { get; set; }
+        public ICollection<Vehiculo> ? Vehiculos { get; set; }
+        public ICollection<Certificacion> ? Certificaciones { get; set; }
+        public ICollection<FacturaRevision> ? FacturasDeRevision { get; set; }
+        public ICollection<FacturaAutorizacion> ? FacturasDeAutorizacion { get; set; }
+        public ICollection<FacturaCompraRepuestos> ? FacturasDeCompraRepuestos { get; set; }
+        public ICollection<FacturaEntregaVehiculo> ? FacturasDeEntregaVehiculo { get; set; }
+        public ICollection<FacturaVenta> ? FacturasDeVenta { get; set; }
+        public ICollection<Mecanico> ? Mecanicos { get; set; }
+        public ICollection<PersonalAdministrativo> ? PersonalAdministrativo { get; set; }
+        public ICollection<Reparacion> ? Reparaciones { get; set; }
+
         
     }
