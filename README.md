@@ -1,33 +1,53 @@
 
 ---
-# Sicer Andres Brito Gutierrez 🧑‍💻
-# Taller Mecanico Proyecto NetCore <img src="https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/8.0.0-preview.6.23329.4/icon" alt="img" style="width: 38px;">
+# Sicer Andres Brito Gutierrez 🧑‍💻 Taller Mecanico Proyecto NetCore <img src="https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/8.0.0-preview.6.23329.4/icon" alt="img" style="width: 38px;">
 Taller Mecanico Proyecto NetCore con la estructura que tiene [Solvo](https://solvoglobal.com/).
 
+
+# Índice 📖
+
+- [Documentación](#documentación-📄)
+    - [Estructura del Proyecto](#estructura-del-proyecto)
+    - [Terminal](#terminal-🔓)
+        - [Estructura Base](#estructura-base-🚧)
+        - [Referencias](#referencias-🔗)
+    - [Gestión de Datos](#gestión-de-datos-🧑‍💻)
+        - [Instalacion de Paquetes](#instalacion-de-paquetes-🔧)
+        - [Migrations](#migrations-✈️)
+
+  
+# 
+
+
 ---
-# Documentacion 📄
+# Documentación 📄
 Mi objetivo con este proyecto es centrarme en el aprendizaje y el desarrollo constante de mis habilidades. Además de eso, también tengo otras metas en mente para asegurarme de que mi contribución sea lo más efectiva posible.
 
- - ## Estructura del Proyecto
-    - 📂 En Dominio
+## Estructura del Proyecto
+ - 📂 En Dominio
         se crean las tablas que representan la BD.
-    - 📂 En Persistencia
+ - 📂 En Persistencia
         se crea la instancia de conexion a la BD.
-    - 📂 En Aplicacion
+ - 📂 En Aplicacion
         se crea la inyeccion de dependecia para la comunicacion con el WebApi.
-    - 📂 En WebApi
+ - 📂 En WebApi
         se crean clases encargadas de recibir peticiones de los clientes.
 
 ---
+
 <img src="./Img/Relaciones.png" alt="Relaciones" style="width: 3000px;">
 
 ---
 
-# Terminal 🔓
-```Terminal
 
-Estructura Base 🚧
 
+
+
+## Terminal 🔓
+
+ - ### Estructura Base 🚧
+
+    ```Terminal
     1. dotnet tool install --global dotnet-ef
         --> instala la herramienta "dotnet-ef" globalmente para trabajar con Entity Framework Core.
 
@@ -63,11 +83,12 @@ Estructura Base 🚧
     11. dotnet sln add DinoApi/
         --> Agrega el proyecto ubicado en la carpeta "DinoApi" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "DinoApi" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
 
+    ```
+---
 
+ - ### Referencias 🔗
 
-
-Referencias 🔗
-
+    ```Terminal
     1. cd Aplicacion/
         - dotnet add reference ../Dominio/
             --> Agrega una referencia al proyecto "Dominio" desde el proyecto "Aplicacion". Al hacer esto, el proyecto "Aplicacion" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Dominio". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de aplicación depende de lógica y modelos definidos en el proyecto de dominio.
@@ -82,18 +103,17 @@ Referencias 🔗
         - dotnet add reference ../Dominio/
             --> Agrega una referencia al proyecto "Dominio" desde el proyecto "Persistencia". Al hacer esto, el proyecto "Persistencia" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Dominio". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de persistencia necesita acceder a los modelos y reglas de negocio definidos en el proyecto de dominio.
 
-
-```
+    ```
 ---
 <img src="https://1.bp.blogspot.com/-epbYlUPl2-c/Xh6loHanlbI/AAAAAAAACpI/Ift8Ukv9AbQVIHl2aKTLMjr-LA25WN8lwCLcBGAsYHQ/s1600/ASP.NET%2BCore.jpg" alt="https://1.bp.blogspot.com/-epbYlUPl2-c/Xh6loHanlbI/AAAAAAAACpI/Ift8Ukv9AbQVIHl2aKTLMjr-LA25WN8lwCLcBGAsYHQ/s1600/ASP.NET%2BCore.jpg" style="width: 3000px;">
 
 ---
 
 
-# Gestion de Datos 🧑‍💻
+## Gestión de Datos 🧑‍💻
 
- - ## Instalacion de Paquetes 🔧
-     - Dominio 📂
+- ### Instalacion de Paquetes 🔧
+    - Dominio 📂
         - dotnet add package Microsoft.EntityFrameworkCore --version 7.0.9
         - dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 11.1.0
         - dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1
@@ -101,13 +121,13 @@ Referencias 🔗
         - dotnet add package itext7.pdfhtml --version 5.0.0
 
 
-     - Persistencia 📂
+    - Persistencia 📂
         - dotnet add package Microsoft.EntityFrameworkCore --version 7.0.9
         - dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0
         - dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.0.9
         - dotnet add package Dapper --version 2.0.143
 
-     - DinoApi 📂
+    - DinoApi 📂
         - dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.9
         - dotnet add package Newtonsoft.Json --version 13.0.3
         - dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.9
@@ -115,8 +135,9 @@ Referencias 🔗
 
 
 
- - ## Migrations ✈️
+- ### Migrations ✈️
     - dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./DinoApi/ --output-dir ./Data/Migrations
     - dotnet ef database update --project ./Persistencia/ --startup-project ./DinoApi/
 
 ---
+
